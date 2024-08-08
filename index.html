@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realme GT Neo 5</title>
+    <link rel="icon" href="images/images.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- NAVBAR -->
+
+<body class="p-2  bg-body-secondary">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <img src="images/images.png" class="img-fluid">
+                <a class="navbar-brand" href="#">GT  NEO 5 |</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="specification.html">Specification</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  " aria-current="page" href="galery.html">Galery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="order.html">Order Now</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-sm btn-secondary" id="toggleThemeBtn">🌙</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container mt-5">
+        <h1 class="backjudul">REALME GT NEO 5</h1>
+        <H1 class="judul">REALME GT NEO 5</H1>
+        <div class="row">
+            <div class="col-md-4 images">
+                <img src="images/-Io91UZP--YsAESPbLD3J-transformed.png" class="img-fluid brand">
+            </div>
+            <div class="col-md-8">
+                <p>
+                    The Realme GT Neo 5 blends modern design with a large, sharp AMOLED display for an immersive visual
+                    experience. Powered by a high-end processor, this phone offers excellent performance for gaming and
+                    multitasking. Its rear camera system features high-quality sensors for detailed photos and videos.
+                    With a sizable battery supporting intensive daily use and fast charging support, you won't run out
+                    of power for long. Security features like an in-screen fingerprint scanner add practical security,
+                    while 5G connectivity ensures fast connections wherever you go. The Realme GT Neo 5 is a great
+                    choice for those seeking high performance, attractive design, and advanced features all in one
+                    device.
+                </p>
+                <a href="order.html"> <button class="btn btn-primary">Order Now</button></a>
+                <a href="specification.html"> <button class="btn btn-primary">All Specification</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- CONTENT -->
+    <div class="container-custom mt-5">
+        <H1 class="backbasic text-center"> Basic Specification</H1>
+        <H1 class="basic text-center "> Basic Specification</H1>
+        <!-- ROW-COLS-MD-3 ->  web 3 colom-->
+        <!-- ROW-COLS-1 -> mobile 1 colom-->
+        <!-- gy-4 -> menambahkan space antar kolom vertikal-->
+        <div class="row row-cols-1 row-cols-md-3 gy-4 mt-3">
+            <div class="col">
+                <div class="card">
+                    <img src="images/content2.png" class="card-img-top" alt="...">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/Cuplikan layar 2024-06-13 202735.png" class="card-img-top" alt="...">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/content3.png" class="card-img-top" alt="...">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/content4.png" class="card-img-top" alt="...">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/content5.png" class="card-img-top" alt="...">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="images/content6.png" class="card-img-top" alt="...">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="container mt-5">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="order.html" class="nav-link px-2 text-muted">Order Now</a></li>
+                <li class="nav-item"><a href="galery.html" class="nav-link px-2 text-muted">Gallery</a></li>
+                <li class="nav-item"><a href="specification.html" class="nav-link px-2 text-muted">Specification</a></li>
+            </ul>
+            <p class="text-center text-muted pt-3">
+                © 2022 Company, Inc <br>
+                <small>Created by <a href="">My Profile</a></small>
+            </p>
+        </footer>
+    </div>
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggleThemeBtn = document.getElementById('toggleThemeBtn');
+            const htmlElement = document.documentElement;
+
+            // Setel tema dari localStorage saat halaman dimuat
+            const storedTheme = localStorage.getItem('theme');
+            if (storedTheme) {
+                htmlElement.setAttribute('data-bs-theme', storedTheme);
+            } else {
+                htmlElement.setAttribute('data-bs-theme', 'light'); // Default theme
+            }
+
+            toggleThemeBtn.addEventListener('click', function () {
+                const currentTheme = htmlElement.getAttribute('data-bs-theme');
+                const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+                htmlElement.setAttribute('data-bs-theme', newTheme);
+                localStorage.setItem('theme', newTheme); // Simpan tema baru di localStorage
+            });
+        });
+    </script>
+</body>
+
+</html>
